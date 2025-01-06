@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url(reset.css);
+
+/* theme and variable*/
+:root{
+    --button-primary: rgb(77, 217, 217);
+}
+
+header > h1{
+    font-family: "Protest strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: rgb(203, 15, 15);
+    line-height: 8.5rem;
+    font-size: 7rem;
+} 
+figure, section{
+    max-width: 108rem;
+    margin: 1rem auto;
+}
+
+figure img{
+    width: 100%; /* 100% de la largeur du parent */
+}
+footer p{
+    text-align: center;
+}
+
+figure.gallery-primary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+figure.gallery-primary figcaption{
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 4.5rem;
+    padding: 1.6rem 0;
+}
+
+.btn-defaut{ /*default button*/
+    display: inline-block;
+    width: max-content;
+    line-height: 3.5rem;
+    padding: .8rem;
+    color: black;
+    background-color: blanchedalmond;
+    border: radius 0.4em;
+    text-transform: capitalize;
+    text-decoration: none;
+
+}
+
+/*theme button*/
+.btn-primary{
+    background-color: rgb(226, 215, 215);
+}
+.btn-secondary{
+    background-color:var(--button-primary);
+}
+
+/* galerie figcaption titre */
+
+
+figure.gallery-primary img{
+    width: auto;
+    height: 15rem;
+    
+}   g
